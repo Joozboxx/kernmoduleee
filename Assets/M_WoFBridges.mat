@@ -77,13 +77,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _Bridge1: 1
-    - _Bridge3: 1
+    - _Bridge3: 0
     - _ENUM: 1
     - _Float: -0.1
     - _Float_1: 0.71
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _bridge_activate: 0.001071757
+    - _bridge_activate: 0.002111274
     - _first_bridge: 0.972
     m_Colors:
     - _Vector2: {r: -3.63, g: 1, b: 0, a: 0}

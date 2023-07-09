@@ -41,7 +41,7 @@ Material:
     - _Float: -10.15
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _secret_bridgfe_open: 0.08106232
+    - _secret_bridgfe_open: 0.111866
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &5090256988255565270
