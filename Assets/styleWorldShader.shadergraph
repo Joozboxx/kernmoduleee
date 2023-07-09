@@ -2280,7 +2280,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "483d835b03ed40dabc9ca760526d005b",
     "m_Id": 0,
-    "m_DisplayName": "opacoituty",
+    "m_DisplayName": "ditherfade",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -4066,11 +4066,11 @@
     "m_Guid": {
         "m_GuidSerialized": "c10d30ff-fcb4-4f37-a327-a36f4f30e83e"
     },
-    "m_Name": "opacoituty",
+    "m_Name": "ditherfade",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "opacoituty",
-    "m_DefaultReferenceName": "_opacoituty",
-    "m_OverrideReferenceName": "",
+    "m_RefNameGeneratedByDisplayName": "ditherfade",
+    "m_DefaultReferenceName": "_ditherfade",
+    "m_OverrideReferenceName": "_ditherfade",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -4079,10 +4079,10 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": 0.23999999463558198,
-    "m_FloatType": 0,
+    "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 1.0
+        "y": 5.0
     }
 }
 

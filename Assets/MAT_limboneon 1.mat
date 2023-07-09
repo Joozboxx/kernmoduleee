@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_limboneon
+  m_Name: MAT_limboneon 1
   m_Shader: {fileID: -6465566751694194690, guid: 370554a165b1f2f47bb7658326a63c66, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
