@@ -43,6 +43,7 @@ Material:
     - _Float_2: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ditherfade: 0
     - _glossy: 0
     - _glow_effect: 1
     - _opacoituty: 0.23

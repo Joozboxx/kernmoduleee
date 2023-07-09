@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class PuzzleCompleted : MonoBehaviour
 {
+    public GameObject skull;
+    public GamePicker gameManager;
     public Transform player;
     public Vector3 spawnPos;
     public GameObject puzzleGate;
@@ -40,19 +42,21 @@ public class PuzzleCompleted : MonoBehaviour
         {
             completed = true;
             puzzleGate.SetActive(true);
-            StartCoroutine(ResetPlayer());
+            skull.SetActive(true);
             foreach (var p in allPuzzles)
             {
                 if (p.completed == false)
                 {
+                    StartCoroutine(ResetPlayer(true));
                     return;
                 }
             }
+            StartCoroutine(ResetPlayer(false));
             mainGate.SetActive(false);
         }
     }
 
-    IEnumerator ResetPlayer()
+    IEnumerator ResetPlayer(bool rotateFloor)
     {
         Animator anim = player.GetComponent<Animator>();
         anim.applyRootMotion = false;
@@ -60,5 +64,14 @@ public class PuzzleCompleted : MonoBehaviour
         player.transform.position = spawnPos;
         yield return new WaitForSeconds(0.25f);
         anim.applyRootMotion = true;
+
+        if (rotateFloor)
+        {
+            gameManager.StartRotation();
+        }
+        else
+        {
+            gameManager.ResetGround();
+        }
     }
 }

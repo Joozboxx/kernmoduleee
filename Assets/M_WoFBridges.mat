@@ -23,7 +23,7 @@ Material:
   m_Name: M_WoFBridges
   m_Shader: {fileID: -6465566751694194690, guid: 0ddd74bb2557ea14abdd0483335965af, type: 3}
   m_ValidKeywords:
-  - _ENUM_BRIDGE3
+  - _ENUM_BRIDGE2
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -76,12 +76,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ENUM: 2
+    - _Bridge1: 1
+    - _Bridge3: 1
+    - _ENUM: 1
     - _Float: -0.1
     - _Float_1: 0.71
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _bridge_activate: 0
+    - _bridge_activate: 0.001071757
     - _first_bridge: 0.972
     m_Colors:
     - _Vector2: {r: -3.63, g: 1, b: 0, a: 0}
