@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1946324669266559652
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShopExit - Copy
+  m_Shader: {fileID: 4800000, guid: 78654f2593a1056428be696d1b000e23, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Back:
+        m_Texture: {fileID: 2800000, guid: 077f18443399d1d4d94547daaa95a8aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ceiling:
+        m_Texture: {fileID: 2800000, guid: 1d90ad99875b3cf4a8fadae6c7225db7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorGradientA:
+        m_Texture: {fileID: 2800000, guid: e3c4f5a1b1706ef4fb4278c30ce5cf78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorGradientB:
+        m_Texture: {fileID: 2800000, guid: 557716ba219112a47859b699a447c653, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Floor:
+        m_Texture: {fileID: 2800000, guid: 6c513ac0740f646468b54e50104743ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitchColorGradientA:
+        m_Texture: {fileID: 2800000, guid: d2b3e05cf65ce32448309eace886c28e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitchColorGradientB:
+        m_Texture: {fileID: 2800000, guid: c94005b6017643b4eb81a7b3b78bab7b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlitchPattern:
+        m_Texture: {fileID: 2800000, guid: 1bb12f0c6b808ac478afcaf584239b0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 2, y: 2}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: f2dee8df0b931234c8de3e2255a693ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 5, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Props:
+        m_Texture: {fileID: 2800000, guid: f6ab736756a88344ea49ec537d9ef633, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoomTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoomTexX:
+        m_Texture: {fileID: 2800000, guid: 077f18443399d1d4d94547daaa95a8aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoomTexY:
+        m_Texture: {fileID: 2800000, guid: 6c513ac0740f646468b54e50104743ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoomTint:
+        m_Texture: {fileID: 2800000, guid: 42594bbd5af55bc498fb972d48a10dc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 2800000, guid: e95838b7c7ad9ed4fb29fc1a76491021, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wall:
+        m_Texture: {fileID: 2800000, guid: 123306b02e5cc314186cc4b7b00cc05b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddativeEmissionCutoff: 0.73
+    - _AddativeEmissionIntensity: 4.14
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _BackWallTexTiling: 1
+    - _Blend: 0
+    - _BumpScale: 1
+    - _CeilingTexTiling: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DepthFalloffExp: 3.33
+    - _DepthFalloffMax: 0.75
+    - _DepthFalloffMin: 2
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipAxis: 1
+    - _FloorTexTiling: 4.1
+    - _FogMix: 0.286
+    - _GlitchLightIntensity: 0.2
+    - _GlitchNormalOffset: -0.67
+    - _GlitchRemapDotMax: 0.585
+    - _GlitchRemapDotMin: 0.507
+    - _GlitchScale: 3
+    - _GlitchSpeedB: -0.4
+    - _GlitchSpeedG: 1
+    - _GlitchSpeedR: -0.2
+    - _GlitchStepB: 2
+    - _GlitchStepG: 5
+    - _GlitchStepR: 10
+    - _GlitchUVOffset: -0.24
+    - _Glitch_UVOffset: 0.61
+    - _Glitch_UV_Offset: 0.1
+    - _GlitchyCameraIntensity: 0.75
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _MoveSpeed: 1
+    - _OcclusionStrength: 1
+    - _Offset: 0
+    - _Parallax: 0.005
+    - _PropsTexTiling: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Ref: 0.24
+    - _RemapDotMax: 0.585
+    - _RemapDotMin: 0.507
+    - _RoomDepthFalloffExp: 1.64
+    - _RoomDepthFalloffMax: 0.58
+    - _RoomDepthFalloffMin: 1.11
+    - _RoomTile: 1
+    - _RoomXTilingU: 1.25
+    - _RoomXTilingV: 2.36
+    - _RoomYTilingU: 4.43
+    - _RoomYTilingV: 1.85
+    - _Scale: 1
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 1
+    - _SpeedB: -0.4
+    - _SpeedG: 1
+    - _SpeedG1: 1
+    - _SpeedR: -0.2
+    - _SrcBlend: 1
+    - _StepB: 2
+    - _StepG: 5
+    - _StepR: 10
+    - _Surface: 0
+    - _SwitchPlane: 0
+    - _TimeNoiseScale: 0.01
+    - _TogglePropLayer: 0
+    - _VehicleMaxFadeDistance: 10
+    - _VehicleMaxFadeExp: 3.03
+    - _WalltexTiling: 1
+    - _WorkflowMode: 1
+    - _XTilingU: 1
+    - _XTilingV: 9
+    - _YTilingU: 75
+    - _YTilingV: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AddativeEmussionColor: {r: 0.8527116, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.4811321, g: 0, b: 0, a: 0.68235296}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PositionOffsetXYZroomsWprops: {r: 0.5, g: 0.5, b: 0, a: 0.45}
+    - _RoomPositionOffsetXYZroomsWGlitch: {r: 0.5, g: 1.9, b: 0, a: 0}
+    - _RoomSkewOffset: {r: 0, g: -0.005, b: 0, a: 0}
+    - _RoomTint: {r: 0.76188755, g: 0.15920039, b: 2.171948, a: 1}
+    - _RoomsXYZGltichW: {r: 1, g: 1, b: 1, a: 1}
+    - _RoomsXYZPropsW: {r: 1, g: 1, b: 1, a: 1}
+    - _ScaleOffset: {r: 1, g: 0.25, b: 0, a: 0.27}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _VerticalOffset: {r: 0, g: 0.2, b: 0, a: 0}
+  m_BuildTextureStacks: []
